@@ -26,3 +26,15 @@
 
 ## Pacotes úteis
 ### 1) [https://pub.dev/packages/flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
+
+
+## Problemas comum de execução:
+
+### 1) Error referente ao gradle: `compileDebugJavaWithJavac`
+
+![Atualizar gradle](images/atualizar_gradle.png)
+![Limpar e reinstalar dependências](images/limpar_reinstalar_dependencias.png)
+![Alterar compiler options no build gradle](images/alterar_compiler_options_no_build_gradle.png)
+![Recriar projeto do gradle se necessário](images/recriar_projeto_gradle_se_necessario.png)
+
+Link útel para resolução do problema: [https://github.com/flutter/flutter/issues/156304#issuecomment-2397707812](https://github.com/flutter/flutter/issues/156304#issuecomment-2397707812)
